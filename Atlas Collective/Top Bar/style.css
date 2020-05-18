@@ -1,0 +1,93 @@
+.h100 {
+    height: 100% !important;
+}
+
+.wmx12 {
+    max-width: 97.2307692rem !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.ai-centre {
+    align-items: center !important;
+}
+
+.grid {
+    display: flex;
+}
+
+.gs4 {
+    margin: 2px;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: seagreen;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* header */
+
+.top_bar ._fixed {
+    position: fixed;
+    min-width: auto;
+    box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(60, 65, 70, 0.1);    
+}
+
+.top_bar .-main {
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.top_bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fafafb;
+    height: 100px;
+    box-sizing: border-box;
+    border-top: 3px solid seagreen;
+}
+
+.top_bar .-logo {
+    padding: 0 8px;
+    box-sizing: content-box;
+    height: 100%;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.top_bar .-logo .-img {
+    background-image: url(img-tea-cozy-logo.png);
+    display: inline-block;
+    background-position: 0 -20px;
+}
+
+.top_bar .-logo .-img._glyph {
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.top_bar .navagation-link {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    white-space: nowrap;
+}
